@@ -8,7 +8,7 @@ function AboutUs() {
         <div className="text-section">
           <h2>Colonia Residencial Los Robles, ¿Quienes somos?</h2>
           <p>
-            Aquí puedes inventarte datos sobre la comunidad residencial Los Robles, poner datos geográficos y hablar bien de la comunidad. Podemos inventarlo por ser algo ficticio, es solo para ir rellenando. De preferencia un párrafo o dos de información.
+            Does this works?
           </p>
         </div>
         <div className="image-section">
