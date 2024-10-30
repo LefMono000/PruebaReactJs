@@ -27,8 +27,6 @@ function App() {
 
       <main className="main-content">
         <Inicio />
-
-        {/* Sección de Anuncios */}
         <section className="announcements-section">
           <h2>Anuncios de la comunidad</h2>
           <div className="announcements">
