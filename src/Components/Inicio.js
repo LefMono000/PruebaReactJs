@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; 
 import image2 from './Colonia1.png'; // Asegúrate de tener la imagen en el directorio adecuado
 import '../Archivo_css.css'; 
 
