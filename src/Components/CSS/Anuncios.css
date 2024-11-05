@@ -1,0 +1,84 @@
+.seccion-anuncios {
+    margin-top: 0px;
+  }
+  
+  .anuncio {
+    border: 1px solid #8C8C8C;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 15px;
+    border-radius: 0px;
+    background-color: #F5F5F5;
+  }
+  
+  .anuncio p {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    font-style: italic; 
+    color: #6d4c41; 
+  }
+  
+  .seccion-anuncios h2,
+  .anuncios-negocios h2 {
+    font-family: 'Arial', sans-serif;
+    color: #B5651D;
+  }
+  
+  .anuncios-negocios {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .tarjetas-negocios {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+  }
+  
+  .anuncio-imagen {
+    width: 30%;
+    height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .anuncio-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .anuncio-imagen:hover {
+    transform: scale(1.1);
+    border-color: #6d4c41;
+  }  
+
+  .anuncio p {
+    font-style: italic; 
+    color: #6d4c41; 
+  }  
+
+  .promo {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9; /* Fondo suave para destacarlo */
+    border-radius: 8px; /* Bordes redondeados */
+    color: #6d4c41; /* Color en tono marrón suave */
+    font-family: 'Arial', sans-serif; /* Fuente */
+  }
+  
+  .promo h2 {
+    color: #B5651D; /* Color del encabezado */
+  }
+  
+  .promo p {
+    margin: 10px 0; /* Espaciado entre párrafos */
+  }
+  

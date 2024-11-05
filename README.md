@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Proyecto II, Unidad 2
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -6,14 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+# Registro de cambios en la version
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
+- Aqui se registrara el log de cambios -
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\

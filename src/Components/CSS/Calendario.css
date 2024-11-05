@@ -1,0 +1,100 @@
+.calendario {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+.navegacion {
+    margin: 10px 0;
+}
+
+.navegacion button {
+    background-color: #B5651D;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.navegacion button:hover {
+    background-color: #A0522D; /* Color más oscuro al hacer hover */
+}
+
+.dias {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.dia {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: transform 0.2s, background-color 0.2s;
+    position: relative; /* Para el posicionamiento de los eventos */
+}
+
+.dia:hover {
+    background-color: #ffa845; /* Color de fondo al hacer hover */
+}
+
+.evento {
+    background-color: #eb801c; /* Color distintivo para el evento */
+    font-weight: bold;
+    transition: transform 0.2s; /* Transición para agrandar el evento */
+}
+
+.evento:hover {
+    transform: scale(1.1); /* Aumentar el tamaño al hacer hover solo en el evento */
+}
+
+.evento-nombre {
+    display: none; /* Ocultar por defecto */
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.dia:hover .evento-nombre {
+    display: block; /* Muestra el nombre del evento al hacer hover */
+}
+
+.ventana-emergente {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro con opacidad */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1000;
+}
+
+.contenido-ventana {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contenido-ventana button {
+    background-color: #B5651D;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contenido-ventana button:hover {
+    background-color: #A0522D; /* Color más oscuro al hacer hover */
+}
+
+
