@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/PruebaReactJs/static/css/main.9a4d3b97.css",
-    "main.js": "/PruebaReactJs/static/js/main.6098b126.js",
+    "main.css": "/PruebaReactJs/static/css/main.66c77deb.css",
+    "main.js": "/PruebaReactJs/static/js/main.c3b15ffa.js",
     "static/js/453.23d7e97b.chunk.js": "/PruebaReactJs/static/js/453.23d7e97b.chunk.js",
     "static/media/banner.png": "/PruebaReactJs/static/media/banner.66a6f769c65cd6406510.png",
     "static/media/Colonia1.png": "/PruebaReactJs/static/media/Colonia1.66546f0a0f471e2cfb35.png",
+    "static/media/Policia.jpg": "/PruebaReactJs/static/media/Policia.ce1505295b8350f47068.jpg",
+    "static/media/Bomberos.jpeg": "/PruebaReactJs/static/media/Bomberos.b538882a9bf719b8f0b5.jpeg",
     "index.html": "/PruebaReactJs/index.html",
-    "main.9a4d3b97.css.map": "/PruebaReactJs/static/css/main.9a4d3b97.css.map",
-    "main.6098b126.js.map": "/PruebaReactJs/static/js/main.6098b126.js.map",
+    "main.66c77deb.css.map": "/PruebaReactJs/static/css/main.66c77deb.css.map",
+    "main.c3b15ffa.js.map": "/PruebaReactJs/static/js/main.c3b15ffa.js.map",
     "453.23d7e97b.chunk.js.map": "/PruebaReactJs/static/js/453.23d7e97b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a4d3b97.css",
-    "static/js/main.6098b126.js"
+    "static/css/main.66c77deb.css",
+    "static/js/main.c3b15ffa.js"
   ]
 }
