@@ -1,65 +1,10 @@
 # Proyecto II, Unidad 2
+Este proyecto es un prototipo del sitio web para la comunidad de la Residencial Los Robles. Su objetivo es proporcionar una interfaz interactiva donde los residentes puedan acceder a información relevante, como noticias, eventos, servicios de contacto, y pagos. Debido a la ausencia de un backend, este prototipo está enfocado en el diseño visual y la navegación básica, simulando las funcionalidades de la versión final. Las secciones principales incluyen páginas como "Inicio", "Anuncios", "Calendario", y un directorio de servicios de contacto.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+El prototipo permite a los usuarios visualizar cómo se verá el sitio web, aunque las funciones relacionadas con el manejo de datos (como envío de formularios, acceso a bases de datos, y procesamiento de pagos) están limitadas o simuladas. Este proyecto se centra en la creación de la estructura de la página, el diseño de la interfaz y la navegación entre secciones.
 
 # Registro de cambios en la version
-
-- Aqui se registrara el log de cambios -
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*Se han añadido prototipos de las páginas principales, que incluyen: Inicio, Anuncios, Calendario, Contactos y Pagos.
+*Se han incorporado elementos visuales de ejemplo, como imágenes y banners en secciones de anuncios y contactos.
+*Se han simulado funciones de pago y directorios, así como un foro comunitario, que incluyen opciones de diseño para mostrar formularios y categorías.
+*Nota: No se han implementado servidores backend. Algunas funciones (como botones de pago y formularios de contacto) son simulaciones con fines demostrativos.

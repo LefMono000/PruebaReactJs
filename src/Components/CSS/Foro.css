@@ -1,0 +1,82 @@
+.foro-principal {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  .foro-header {
+    text-align: center;
+    background-color: #B5651D;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .foro-header h1 {
+    margin: 0;
+    font-size: 1.8em;
+  }
+  
+  .foro-header p {
+    margin-top: 5px;
+    font-size: 1em;
+  }
+  
+  .categorias {
+    margin-top: 20px;
+  }
+  
+  .categoria {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .categoria h2 {
+    color: #B5651D;
+    margin: 0 0 10px;
+  }
+  
+  .categoria p {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .temas {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .temas li {
+    padding: 8px 0;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+  }
+  
+  .temas li:first-child {
+    border-top: none;
+  }
+  
+  .temas li:hover {
+    background-color: #f3f3f3;
+    cursor: pointer;
+  }
+  
+  .temas li strong {
+    color: #333;
+  }
+  
+  .foro-footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.85em;
+    color: #666;
+  }

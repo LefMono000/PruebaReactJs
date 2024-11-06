@@ -1,0 +1,92 @@
+
+.directorio-principal {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .directorio-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .directorio-header h1 {
+    font-size: 1.8em;
+    color: #4A4A4A;
+  }
+  
+  .directorio-header p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .contactos-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contacto {
+    display: flex;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    align-items: center;
+  }
+  
+  .contacto-imagen img {
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 15px;
+  }
+  
+  .contacto-info h2 {
+    font-size: 1.3em;
+    margin: 0;
+    color: #333;
+  }
+  
+  .contacto-info p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .contacto-botones {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .llamar-btn,
+  .compartir-btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9em;
+    cursor: pointer;
+  }
+  
+  .llamar-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .compartir-btn {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .llamar-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .compartir-btn:hover {
+    background-color: #1e88e5;
+  }

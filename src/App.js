@@ -7,6 +7,7 @@ import Pie_pagina from './Components/Piepagina';
 import Pagos from './Pagos';
 import Calendario from './Components/Calendario';
 import Contactos from './Components/Contactos';
+import Foro from './Components/Foro';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="*" element={<Navigate to="/" />} />
             <Route path="/calendario" element={<Calendario />} />
             <Route path="/contactos" element={<Contactos />} />
+            <Route path="/Foro" element={<Foro />} />
           </Routes>
         </main>
         

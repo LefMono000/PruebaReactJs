@@ -22,7 +22,7 @@ function Cabecera() {
           <li><Link to="/pagos">Pagos</Link></li> 
           <li><Link to="/Calendario">Calendario de eventos</Link></li>
           <li><Link to="/Contactos">Contactos de emergencia</Link></li>
-          <li><Link to="#foro">Foro residencial</Link></li>
+          <li><Link to="/Foro">Foro residencial</Link></li>
         </ul>
       </nav>
     </header>

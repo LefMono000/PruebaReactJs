@@ -19,7 +19,7 @@
 }
 
 .navegacion button:hover {
-    background-color: #A0522D; /* Color más oscuro al hacer hover */
+    background-color: #A0522D; 
 }
 
 .dias {
@@ -34,25 +34,25 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     transition: transform 0.2s, background-color 0.2s;
-    position: relative; /* Para el posicionamiento de los eventos */
+    position: relative; 
 }
 
 .dia:hover {
-    background-color: #ffa845; /* Color de fondo al hacer hover */
+    background-color: #ffa845; 
 }
 
 .evento {
-    background-color: #eb801c; /* Color distintivo para el evento */
+    background-color: #eb801c;
     font-weight: bold;
-    transition: transform 0.2s; /* Transición para agrandar el evento */
+    transition: transform 0.2s; 
 }
 
 .evento:hover {
-    transform: scale(1.1); /* Aumentar el tamaño al hacer hover solo en el evento */
+    transform: scale(1.1); 
 }
 
 .evento-nombre {
-    display: none; /* Ocultar por defecto */
+    display: none; 
     position: absolute;
     top: 5px;
     left: 5px;
@@ -63,7 +63,7 @@
 }
 
 .dia:hover .evento-nombre {
-    display: block; /* Muestra el nombre del evento al hacer hover */
+    display: block; 
 }
 
 .ventana-emergente {
@@ -71,7 +71,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro con opacidad */
+    background-color: rgba(0, 0, 0, 0.8); 
     color: white;
     padding: 20px;
     border-radius: 10px;
@@ -94,7 +94,5 @@
 }
 
 .contenido-ventana button:hover {
-    background-color: #A0522D; /* Color más oscuro al hacer hover */
+    background-color: #A0522D; 
 }
-
-

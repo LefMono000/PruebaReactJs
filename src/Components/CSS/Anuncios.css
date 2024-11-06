@@ -68,17 +68,17 @@
     max-width: 800px;
     padding: 20px;
     text-align: center;
-    background-color: #f9f9f9; /* Fondo suave para destacarlo */
-    border-radius: 8px; /* Bordes redondeados */
-    color: #6d4c41; /* Color en tono marrón suave */
-    font-family: 'Arial', sans-serif; /* Fuente */
+    background-color: #f9f9f9;
+    border-radius: 8px; 
+    color: #6d4c41; 
+    font-family: 'Arial', sans-serif;
   }
   
   .promo h2 {
-    color: #B5651D; /* Color del encabezado */
+    color: #B5651D; 
   }
   
   .promo p {
-    margin: 10px 0; /* Espaciado entre párrafos */
+    margin: 10px 0; 
   }
   
